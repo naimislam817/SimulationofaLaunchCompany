@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="593.0" prefWidth="730.0" style="-fx-background-color: tan;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulationofalaunchcompany.CustomerServiceDashController">
+   <children>
+      <Label layoutX="325.0" layoutY="167.0" prefHeight="207.0" prefWidth="405.0" text="Customer Service" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Barlow Condensed Bold Italic" size="46.0" />
+         </font>
+      </Label>
+      <Button layoutX="38.0" layoutY="60.0" mnemonicParsing="false" onAction="#updatecustomerdatabutton" prefHeight="25.0" prefWidth="182.0" text="Update Customer Data">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="113.0" mnemonicParsing="false" onAction="#generatepoliciesandprecautionbutton" prefHeight="25.0" prefWidth="182.0" text="Generate Policies &amp; Precaution" />
+      <Button layoutX="38.0" layoutY="465.0" mnemonicParsing="false" onAction="#viewreviewbutton" prefHeight="25.0" prefWidth="229.0" text="Customer Support Reviews">
+         <font>
+            <Font name="Castellar" size="12.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="343.0" mnemonicParsing="false" onAction="#viewcustomerquerybutton" prefHeight="25.0" prefWidth="124.0" text="Customer Query" />
+      <Button layoutX="38.0" layoutY="284.0" mnemonicParsing="false" onAction="#viewnoticefromhrbttn" prefHeight="25.0" prefWidth="182.0" text="View General Notice">
+         <font>
+            <Font name="Castellar" size="12.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="401.0" mnemonicParsing="false" onAction="#viewfeedbackhubuttn" prefHeight="25.0" prefWidth="124.0" text="Feedback Hub" />
+      <Button layoutX="38.0" layoutY="219.0" mnemonicParsing="false" onAction="#leaveofabsensebutton" prefHeight="25.0" prefWidth="201.0" text="Request for leave of absense" />
+      <Button layoutX="487.0" layoutY="514.0" mnemonicParsing="false" onAction="#returntohomescreenbutton" prefHeight="25.0" prefWidth="201.0" text="Return" />
+      <Button layoutX="38.0" layoutY="167.0" mnemonicParsing="false" onAction="#discountbutton" prefHeight="26.0" prefWidth="182.0" text="Offers" />
+   </children>
+</AnchorPane>
